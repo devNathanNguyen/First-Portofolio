@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portofolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1 class="logo">Nathan Nguyen</h1>
+        <nav>
+          <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="about-me">
+        <div class="section-container">
+          <h2>About Me</h2>
+          <h2>About Me</h2>
+          <img class="profile-pic" src="https://i.imgur.com/6fLASRj.jpg" alt="pic of me">
+          <p class="text-align">Hi, my name is Nathan Nguyen and I'm an aspiring software engineer.  This is my portfolio.</p>
+          <br>
+          <p class="text-align">I have experience building web applications using HTML, CSS, JavaScript, and React.</p>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="section-container">
+          <h2>Projects</h2>
+          <ul class="project-list">
+            <li>
+              <div class="project-container">
+                <h3>CarryOn</h3>
+                <p>CarryOn is a simple application built to help it's users figure out what they should pack on their trips.</p>
+                <img class="project-image" src="https://user-images.githubusercontent.com/113863838/201611489-6c3918ca-54e0-4760-9329-dcd5057952ae.JPG" alt="CarryOn Image">
+                <a href="https://samezad27.github.io/Project-1-group-7/" class="project-link">View Project</a>
+              </div>
+            </li>
+            <li>
+              <div class="project-container">
+                <h3>Game Price Checker 2.0</h3>
+                <p>Game Price Checker 2.0 is an application built to help it's users cross-reference from a database on the price fluxations of their sought after game titles.</p>
+                <img class="project-image" src="https://i.imgur.com/dYXt018.png" alt="Game Price Checker 2.0 Image">
+                <a href="https://game-price-checker-2.herokuapp.com/" class="project-link">View Project</a>
+              </div>
+            </li>
+            <li>
+              <div class="project-container">
+                <h3>Ameliorate</h3>
+                <p>An RPG style to-do application with work authentication made to make doing your daily chores interactive and rewarding</p>
+                <img class="project-image" src="https://imgur.com/a/LovKNTW" alt="Ameliorate Image">
+                <a href="https://ameliorate.herokuapp.com/" class="project-link">View Project</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="contact-me">
+        <div class="section-container">
+          <h2>Contact Me</h2>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Send" class="contact-button">
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Nathan Nguyen</p>
+    </footer>
+  </body>
+</html>
